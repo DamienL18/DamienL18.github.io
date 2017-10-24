@@ -31,6 +31,7 @@ h1 {
 
 h1 {
     text-align: center;
+    color: yellow;
 }
 body {
     background-image: url("/images/wave.gif");
@@ -48,7 +49,7 @@ ul {
 
 li a {
     display: block;
-    color: #000;
+    color: black;
     padding: 8px 16px;
     text-decoration: none;
 }
@@ -58,7 +59,41 @@ li a:hover:not(.active) {
     background-color: purple;
     color: white;
 }
+li b {
+    display: block;
+    color: yellow;
+    padding: 8px 16px;
+    text-decoration: none;
+}
 
+
+li b:hover:not(.active) {
+    background-color: purple;
+    color: white;
+}
+h2 {
+    border: 5px solid powderblue;
+}
+p1 { text-decoration: underline
+    
+}
+
+.btn-group .button {
+    background-color: white
+    border: white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+}
+
+.btn-group .button:hover {
+    background-color: purple;
+}
 </style>
 </head>
 <body>
@@ -71,6 +106,18 @@ li a:hover:not(.active) {
   <li><a href="https://pianu.com/online-piano">Surprise</a></li>
 </ul>
 
-			<h1 style="color:Yellow;">Welcome MTV to Damien's Portfolio Page!</h1>
+			<h1 style="color:Yellow;">Welcome MTV to Damien's Po+rtfolio Page!</h1>
+			<h2 style="text-align:center; color:Yellow;">Projects</h2>
+			<p1 style="color:Yellow; font-size:20px;">Android App</p1>
+		<br> <video width="320" height="240" controls>
+  <source src="/videos/damiens final vid (1).mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+</video>
+<h3 style="text-align:center; color:yellow;">Overall the android app project was a very fun and interactive, hands on experience. The app my partner and I created was a soundboard with pop up pictures.One of the problems we encountered was uploading a video in order to use it for the sounds. We had tried numerous amounts of  different code blocks in order to get the video to play, which in the end we discovered just using call sound play would play as well, which was strenuous to go throughout the blocks and implement for the other sound files and connected onto buttons. Another difficulty that was encountered was the notifier. To fix the notifier we had to add a clock with a second interval which we had to look back at past projects to learn about the clock and how we used it which could be found in the about page. One thing I did by myself was figure out how to put pictures on the bottom when we click a button on the actual soundboard page aka screen 2 and by using a canvas and sprite.
+</h3>
+<div class="btn-group">
+<a  class="button" href="/android/BoiYouSleepAPP.apk">APK DOWNLOAD</a>
+<a  class="button" href="/android/BoiYouSleepAPP.aia">AIA DOWNLOAD</a>
+  </div>
 	</body>
 </html>
