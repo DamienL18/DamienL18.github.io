@@ -9,22 +9,109 @@
   
 	  	  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
 <link rel="icon" type="image/png" href="/images/kermit-supreme-box-logo.jpg" sizes="16x16" />
-</head>
+
 		<meta charset="utf-8">
 		<title>Home</title>
 	
 		<link rel="stylesheet" href="css/index.css"> 
 </head>
 <body>
+<style>h1 {
+  animation-duration: 1s;
+  animation-name: slidein;
+}
 
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  75% {
+    font-size: 300%;
+    margin-left: 25%;
+    width: 150%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+h1 {
+    text-align: center;
+    color: yellow;
+}
+body {
+    background-image: url("/images/wave.gif");
+    background-color: #cccccc;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover:not(.active) {
+    background-color: purple;
+    color: white;
+}
+li b {
+    display: block;
+    color: yellow;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+
+li b:hover:not(.active) {
+    background-color: purple;
+    color: white;
+}
+h2 {
+    border: 5px solid powderblue;
+}
+p1 { text-decoration: underline
+    
+}
+
+.btn-group .button {
+    background-color: white
+    border: white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+}
+
+.btn-group .button:hover {
+    background-color: purple;
+}</style>
 
 <ul>
-  <li><a href="/index.html">Home</a></li>
+  <li><a href="index.html">Home</a></li>
   <li><a href="https://github.com/DamienL18/DamienL18.github.io"> Git Hub Respository</a></li>
-  <li><a href="/portfolio.html">Projects</a></li>
+  <li><a href="project.html">Projects</a></li>
   <li><a href="https://pianu.com/online-piano">Surprise</a></li>
-   <li><a href="https://damien-portfolio-dlopez2018.c9users.io/contact.html">Contact Me</a></li>
-      <li><a href="https://damien-portfolio-dlopez2018.c9users.io/contact.html">About Me</a></li>
+   <li><a href="contact.html">Contact Me</a></li>
+      <li><a href="aboutme.html">About Me</a></li>
 </ul>
 
 		<h1	style="color:Yellow;">Welcome MTV to Damien's Home Page!</h1>
