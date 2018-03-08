@@ -1,7 +1,4 @@
 
-
-
-
 def pin():
    
     tries = 3
@@ -68,4 +65,5 @@ def start_menu():
     print("Exiting Program, type start_menu() ")
 
 start_menu()
+
 
